@@ -41,6 +41,7 @@
 ## Other Notes
 
 > "If everyone spoke to their phones for 3 minutes, we'd exhaust all available computing resources."
+
 _-Jeff Dean in reference to voice search_
 
 Google uses ML models to help regulate the temperature of its servers. They read sensor data to optimize when cooling can be applied. It has increased cooling efficiency by 40%.
