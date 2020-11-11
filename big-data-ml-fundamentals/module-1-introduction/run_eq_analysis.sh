@@ -1,16 +1,23 @@
 #!/bin/bash
 # Installing Git
-sudo apt-get install git -Y
+# sudo apt-get install git -y
 
 git clone https://www.github.com/GoogleCloudPlatform/training-data-analyst
 
-cd training-data-analyst/bdml-fundamentals/earthquakevm
+# copy important files
+cp -rf ./training-data-analyst/courses/bdml_fundamentals/ .
+
+# clean up the giant ass repo that comes with it
+rm -rf ./training-data-analyst
+
+# start demo
+cd ./bdml_fundamentals/demos/earthquakevm
 
 # get pre-reqs
 ./install_missing.sh
 
 # download data
-./ingest_data.sh
+./ingest.sh
 
 # validate data made it
 head earthquakes.csv
