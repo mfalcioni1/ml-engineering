@@ -12,7 +12,15 @@
 [Security: On-premise vs. Cloud-native](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/BkWTn/security-on-premise-vs-cloud-native)
 
 [Evolution of Google Cloud Big Data Tools](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/kwvZ7/evolution-of-google-cloud-big-data-tools)
-* YOU ARE HERE 11/12
+
+[Choosing the Right Approach](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/EY31t/choosing-the-right-approach)
+
+[What You Can Do with GCP](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/Pcg5V/what-you-can-do-with-google-cloud-platform)
+
+[Activity: Explore Real Customer Solution Architectures](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/8dB0I/activity-explore-real-customer-solution-architectures)
+
+[Key Roles in a Data-Driven Organization](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/9b1DF/key-roles-in-a-data-driven-organization)
+- 11/22 YOU ARE HERE
 
 ## Active Learning Questions
 
@@ -39,6 +47,12 @@
 11. How is GCP data stored for security purposes?
 
 12. How is BigQuery data secured?
+
+13. What is different about Dremel?
+
+14. What is the difference between App Engine and Cloud Functions?
+
+15. 
 
 ## Active Learning Answers
 
@@ -73,6 +87,10 @@
 11. Stored data is encrypted at rest, and distributed for availabilty and reliability.
 
 12. Envelope encryption. BigQuery table data is encrypted with keys, then those keys are encypted with key encryption.
+
+13. It stores data in a columninar format and auto-scales.
+
+14. App engine is typically used for a continually running web app that can scale to millions of users, while Cloud Functions are meant to be programs that run when a specific event triggers i.e. a file drops in a location.
 
 ## Other Notes
 
