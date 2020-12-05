@@ -68,7 +68,15 @@
 
 19. What allows Spark to operate up to 100 times faster than the same Hadoop job?
 
-20. 
+20. What are some of the shutdown triggers you can leverage for a Dataproc Cluster?
+
+21. How does Dataproc auto-scale?
+
+22. What is the dependency for enabling auto-scaling for Dataproc?
+
+23. Why is Dataproc able to leverage preemptible VMs?
+
+24. Why is it feasible to store data outside of HDFS for Dataproc?
 
 ## Active Learning Answers
 
@@ -117,6 +125,16 @@
 18. A Relational Database Management System (RDBMS) like mySQL.
 
 19. In memory computation.
+
+20. Idle time, timestamp, duration of wait time, or upon completion of a specific job.
+
+21. Monitoring Hadoop's YARN metrics.
+
+22. Shutting down a cluster's node does not remove any data. We can use Cloud Storage, BigTable, or BigQuery to meet that requirement.
+
+23. Preemptible VMs require the workloads to be batch and fault tolerant. They also require data not to be stored on them. Therefore they integrate well with the Hadoop fault tolerant auto-scaling workloads.
+
+24. Google's petabite bisectional bandwidth. Any server can communicate with another server at full network speed. Therefore it does not make sense to transfer and store files locally any more.
 
 ## Other Notes
 
