@@ -26,7 +26,13 @@
 [Migrating workloads to the cloud](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/s3wa2/approach-move-from-on-premise-to-google-cloud-platform)
 
 [Spark Demo](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/2u8xn/demo-from-zero-to-an-apache-spark-job-in-10-minutes-or-less)
-- 11/30 you are here.
+
+[Introduction to BigQuery](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/hdoRC/introduction-to-bigquery)
+
+[Explore and analyze large datasets with SQL](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/H1irf/bigquery-fast-sql-engine)
+
+[Insights from Geographic Data](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/g8oXx/insights-from-geographic-data)
+--12/5 YOU ARE HERE.
 
 ## Active Learning Questions
 
@@ -77,6 +83,14 @@
 23. Why is Dataproc able to leverage preemptible VMs?
 
 24. Why is it feasible to store data outside of HDFS for Dataproc?
+
+25. What two services is BigQuery comprised of?
+
+26. How is BigQuery data storage different than standard SQL data storage?
+
+27. Can you stream data into BigQuery? If so, what are the limits?
+
+28. How can we use the ARRAY and STRUCT data types in BigQuery?
 
 ## Active Learning Answers
 
@@ -136,6 +150,14 @@
 
 24. Google's petabite bisectional bandwidth. Any server can communicate with another server at full network speed. Therefore it does not make sense to transfer and store files locally any more.
 
+25. BigQuery Storage Service and BigQuery Query Service
+
+26. Data is stored in highly compressed coliminar format in Google's Colossus file system.
+
+27. Yes, 1MB/row and 100,000 rows/second per project.
+
+28. ARRAY can allow us to store multiple values in one "column", while STRUCT lets us nest "joins" within the table itself. Think HEADER and DETAIL. We can use STRUCT here to avoid having two separate tables, and instead nest the table on an order key STRUCT.
+
 ## Other Notes
 
 > "If everyone spoke to their phones for 3 minutes, we'd exhaust all available computing resources."
@@ -152,3 +174,6 @@ Rules of thumb for data management tools.
 ![image](https://user-images.githubusercontent.com/15249120/100691009-bc573280-3355-11eb-9ad1-d0255bb68543.png)
 
 ![image](https://user-images.githubusercontent.com/15249120/100691146-0dffbd00-3356-11eb-9a2e-d0d5bba33337.png)
+
+BQ Infrastructure
+![image](https://user-images.githubusercontent.com/15249120/101265446-9b575e80-3714-11eb-8ebb-95eb9635e6ab.png)
