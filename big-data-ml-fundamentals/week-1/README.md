@@ -32,7 +32,10 @@
 [Explore and analyze large datasets with SQL](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/H1irf/bigquery-fast-sql-engine)
 
 [Insights from Geographic Data](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/g8oXx/insights-from-geographic-data)
---12/5 YOU ARE HERE.
+
+[Apply machine learning using SQL with BigQuery ML](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/Ij315/choosing-a-ml-model-type-for-structured-data)
+
+
 
 ## Active Learning Questions
 
@@ -91,6 +94,8 @@
 27. Can you stream data into BigQuery? If so, what are the limits?
 
 28. How can we use the ARRAY and STRUCT data types in BigQuery?
+
+29. True or False: You can query a Google Spreadsheet directly from BigQuery without loading it in first.
 
 ## Active Learning Answers
 
@@ -157,6 +162,8 @@
 27. Yes, 1MB/row and 100,000 rows/second per project.
 
 28. ARRAY can allow us to store multiple values in one "column", while STRUCT lets us nest "joins" within the table itself. Think HEADER and DETAIL. We can use STRUCT here to avoid having two separate tables, and instead nest the table on an order key STRUCT.
+
+29. Truuuue
 
 ## Other Notes
 
