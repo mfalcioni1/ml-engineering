@@ -1,4 +1,4 @@
-# Module 1
+# Week 1
 [Introduction to Google Cloud Platform](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/RJDJP/introduction-to-google-cloud-platform)
 
 [Compute Power for Analytic and ML Workloads](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/9hJ1a/compute-power-for-analytic-and-ml-workloads)
@@ -35,9 +35,17 @@
 
 [Apply machine learning using SQL with BigQuery ML](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/Ij315/choosing-a-ml-model-type-for-structured-data)
 
+# Week 2
 
+[Challenge: Building Data Pipelines](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/Icvbf/modern-data-pipeline-challenges)
+
+[Message-oriented architectures with Cloud Pub/Sub](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/gSSzv/message-oriented-architectures-with-cloud-pub-sub)
+
+[Designing and implementing streaming data pipelines at scale](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/uy2ue/designing-streaming-pipelines-with-apache-beam)
 
 ## Active Learning Questions
+
+### Week 1
 
 1. What are the four fundamental aspects of Google Cloud core infrastructure?
 
@@ -96,6 +104,10 @@
 28. How can we use the ARRAY and STRUCT data types in BigQuery?
 
 29. True or False: You can query a Google Spreadsheet directly from BigQuery without loading it in first.
+
+### Week 2
+
+30. What is Cloud Pub/Sub?
 
 ## Active Learning Answers
 
@@ -165,7 +177,11 @@
 
 29. Truuuue
 
+30. It is a distributed messaging service that can receive messages from a variety of different streams i.e. transaction messages  or IoT devices, and PUBlish them to any number of SUBscribers.
+
 ## Other Notes
+
+### Week 1
 
 > "If everyone spoke to their phones for 3 minutes, we'd exhaust all available computing resources."
 
@@ -184,3 +200,14 @@ Rules of thumb for data management tools.
 
 BQ Infrastructure
 ![image](https://user-images.githubusercontent.com/15249120/101265446-9b575e80-3714-11eb-8ebb-95eb9635e6ab.png)
+
+### Week 2
+
+Serverless data architecture
+![image](https://user-images.githubusercontent.com/15249120/103143318-d16b7b00-46e1-11eb-9273-942a1a67c19e.png)
+
+Example Pub/Sub Architecture
+![image](https://user-images.githubusercontent.com/15249120/103143331-198a9d80-46e2-11eb-8c13-4ec75d944a44.png)
+
+Dataflow Workflow
+![image](https://user-images.githubusercontent.com/15249120/103143398-147a1e00-46e3-11eb-9824-46e52a5828d5.png)
