@@ -109,6 +109,10 @@
 
 30. What is Cloud Pub/Sub?
 
+31. What types of data load jobs can Dataflow handle?
+
+32. What is the underlying language of Dataflow? What programming languages support an SDK of this architecture?
+
 ## Active Learning Answers
 
 1. Security, Compute, Storage, and Networking
@@ -178,6 +182,10 @@
 29. Truuuue
 
 30. It is a distributed messaging service that can receive messages from a variety of different streams i.e. transaction messages  or IoT devices, and PUBlish them to any number of SUBscribers.
+
+31. Batch and streaming.
+
+32. Apache Beam, Python Java and Go
 
 ## Other Notes
 
