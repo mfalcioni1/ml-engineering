@@ -43,6 +43,14 @@
 
 [Designing and implementing streaming data pipelines at scale](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/uy2ue/designing-streaming-pipelines-with-apache-beam)
 
+[https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/RqenR/visualizing-insights-with-data-studio](Visualizing insights with Data Studio)
+
+[https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/Jm4OM/lab-intro](Lab: Creating a Streaming Data Pipeline with Dataflow)
+
+[https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/951yj/where-is-unstructured-ml-used-in-business](Machine Learning on Unstructured Datasets)
+
+[https://www.coursera.org/learn/gcp-big-data-ml-fundamentals/lecture/lmF7O/lab-intro](Lab: Classifying Images of Clouds in the Cloud with AutoML Vision)
+
 ## Active Learning Questions
 
 ### Week 1
@@ -112,6 +120,8 @@
 31. What types of data load jobs can Dataflow handle?
 
 32. What is the underlying language of Dataflow? What programming languages support an SDK of this architecture?
+
+33. What is an example of the ideal use case for a relational database?
 
 ## Active Learning Answers
 
@@ -187,6 +197,8 @@
 
 32. Apache Beam, Python Java and Go
 
+33. Transactional updates on relatively small datasets
+
 ## Other Notes
 
 ### Week 1
@@ -219,3 +231,7 @@ Example Pub/Sub Architecture
 
 Dataflow Workflow
 ![image](https://user-images.githubusercontent.com/15249120/103143398-147a1e00-46e3-11eb-9824-46e52a5828d5.png)
+
+The machine learning portions of week 2 were fairly basic. They recommend using some of the prebuilt APIs when you don't have a ton of your own labeled unstructured data. Then you can use AutoML to do some retraining on pre-built models if you have some of your own data.
+
+![image](https://user-images.githubusercontent.com/15249120/103384863-fd15a900-4ac5-11eb-9af7-9ebab9e4f57d.png)
